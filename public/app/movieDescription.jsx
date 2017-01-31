@@ -71,7 +71,7 @@ class movieDescription extends React.Component {
 		var amazonBuy = this.props.movie.amazonBuy ?
 		<div>
 		<a href={this.props.movie.amazonBuyLink} target="_blank">
-		<Image src="/images/amazonBuy.png" style={{
+		<Image src="/images/amazonbuy.png" style={{
 		  height: 20,
 			margin:5}}/> <p>$ {this.props.movie.amazonBuyPrice}</p>
 			</a></div> : null;
