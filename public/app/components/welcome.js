@@ -9,14 +9,12 @@ import { PageHeader } from 'react-bootstrap';
 import { Parallax, Background } from 'react-parallax';
 import { Thumbnail } from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
-import { FontAwesome } from 'react-fontawesome';
-
 
 var Falinkedin = require('react-icons/lib/fa/linkedin');
 var Fa_github = require('react-icons/lib/fa/github');
 
 export default () => <div>
-    <Parallax strength = {300}>
+  <Parallax strength = {300}>
     <Background>
     <img src = "/images/cover.jpg" />
     <div style = {
@@ -236,7 +234,6 @@ export default () => <div>
                <span style = {{ marginRight: 10 }}></span>
                <a href="https://github.com/jnocon" target="_blank">
                <Fa_github /></a>
-
           </Col>
           <Col xs={6} md={6}>
             <Image style={{
@@ -250,9 +247,9 @@ export default () => <div>
                <span style = {{ marginRight: 10 }}></span>
                <a href="https://github.com/richdurazo" target="_blank">
                <Fa_github /></a>
-
           </Col>
         </Row>
       </Grid>
     </div>
-</footer>< /div>;
+</footer>
+</div>;
